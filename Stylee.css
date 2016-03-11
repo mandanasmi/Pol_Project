@@ -1,0 +1,257 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+a.pol_title {
+	font-size: 2em;
+	color: lightblue;
+	text-align: center;
+	margin: 10px;
+	padding: 5px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: lightgray;
+	direction: rtl;
+}
+header {
+	width: 100%;
+	height: 20%;
+	background-color :#00cc66;
+	text-align:center;
+	align:center;
+}
+
+.Logo 
+{
+	float:right;
+    height: auto; !important
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	padding-bottom:0.2%;
+}
+.Logo:hover {
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-animation-name: hvr-icon-drop;
+  animation-name: hvr-icon-drop;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+/* Icon Push */
+@-webkit-keyframes hvr-icon-push {
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+
+@keyframes hvr-icon-push {
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+
+
+.Semantic 
+{
+	float:left;
+   height: auto; !important
+}
+
+.Semantic:hover 
+{
+-webkit-animation-name: hvr-icon-push;
+  animation-name: hvr-icon-push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+    font-size: 3.5vw;
+	padding:0.2%;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+h2 {
+	text-align: center;
+	font-size: 30px;
+    font-size: 3.5vw;
+	font-family: Georgia, serif;
+	padding:0.2px;
+	color: #484848;
+}
+h4 {
+	text-align: center;
+	font-family: "Verdana", serif;
+	padding:16px;
+	color: #FFFFFF;
+}
+
+p {
+	font-family:16px "Trebuchet MS", Verdana, sans-serif;
+	text-align: justify;
+}
+
+
+
+#wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative; //make #wrapper position non-static
+	min-height: 100%;
+}
+html
+{
+	position:relative;
+}
+footer {
+	height: 30%; 
+	width:100%;
+	background: #780000 ;
+	position:relative; 
+	display:block;
+	bottom: 3; 
+	text-align: center;
+	font: 100 60px/1.5 Georgia, serif;
+    font-size: 1.5vw;
+}
+
+
+.footer-social-icons {
+	width: 350px;
+	display:block;
+    margin: 0 auto;
+}
+
+.social-icon {
+	color: #fff;
+}
+
+ul.social-icons {	
+	margin-top: 10px;
+
+}
+
+.social-icons li {
+	vertical-align: top;
+	display: inline;
+}
+
+.social-icons a {
+	color: #fff; 
+	text-decoration: none;
+}
+
+
+.fa-facebook {
+	padding:10px 14px 7px 14px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+  	background-color: #322f30;
+}
+
+.fa-facebook:hover {
+	background-color: #3d5b99;
+}
+
+.fa-twitter {
+	padding:10px 10px 7px 10px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+  	background-color: #322f30;
+}
+
+.fa-twitter:hover {
+	background-color: #00aced;
+}
+
+
+.fa-linkedin {
+	padding:10px 11px 8px 11px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+  	background-color: #322f30;
+}
+
+.fa-linkedin:hover {
+	background-color: #0073a4;
+}
+
+.fa-google-plus {
+	padding:10px 10px 7px 10px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+  	background-color: #322f30;
+}
+
+.fa-google-plus:hover {
+	background-color: #e25714;
+}
+
+div.div_sidebar {
+	display: block;
+	box-sizing: border-box;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	padding-top: 49px;
+	width: 20%;
+	height: 100%;
+	background-color: white;
+	z-index: -1;
+}
+div.div_sidebar_menu {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	overflow-y: hidden;
+}
+div.div_sidebar_menu:hover {
+	overflow-y: scroll;
+}
+a.a_sidebar {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 8px 10px;
+	text-decoration: none;
+}
+a.a_sidebar:hover {
+	background-color: gray;
+}
