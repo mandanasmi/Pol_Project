@@ -1,0 +1,334 @@
+/* #NILOOFAR GHEIBI __________ Footer + Header + Navigation Bar */
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+.navbar-custom .nav > li > a:focus,
+.navbar-custom .nav > li > a:hover,
+.navbar-custom .nav > li.active > a 
+{
+  background-color: #00b359;
+}
+.navbar-custom .nav 
+{
+	background-color:	#606060;
+}
+.navbar-header
+{
+	background-color:	#606060;
+}
+.container-fluid
+{
+	background-color:	#606060;
+}
+.navbar-inverse
+{
+	font-family:BYekan, Tahoma, Verdana, sans-serif;
+}
+a:link {
+    color: 	#E0E0E0;
+}
+
+/* visited link */
+a:visited {
+    color:	#FFFFFF ;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+@font-face {
+    font-family:'BYekan';/*تعریف یک نام برای فونت*/
+    src:url('font/BYekan.eot');/*اکسپلورر 9 به بعد*/
+    src:local('bYekan'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('b Yekan'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('font/BYekan.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('font/BYekan.woff') format('woff'),/*مرورگر های جدید*/
+        url('font/BYekan.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('font/BYekan.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+body 
+{
+	margin: 0;
+	padding: 0;
+	background-color: lightgray;
+	direction: rtl;
+	font-family: 'BYekan', sans-serif;
+	
+}
+
+#container {
+	width: 98%;
+	overflow: hidden;
+	margin: 1% auto;
+	background:#00b359;
+	padding: 1%;
+}
+header {
+	width: 100%;
+	
+}
+
+.Logo 
+{
+	float:right;
+    height: auto; !important
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	padding-bottom:0.2%;
+}
+.Logo:hover {
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-animation-name: hvr-icon-drop;
+  animation-name: hvr-icon-drop;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+/* Icon Push */
+@-webkit-keyframes hvr-icon-push {
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+
+@keyframes hvr-icon-push {
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+
+
+.Semantic 
+{
+	float:left;
+   height: auto; !important
+}
+
+.Semantic:hover 
+{
+-webkit-animation-name: hvr-icon-push;
+  animation-name: hvr-icon-push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+h1 {
+	font-size:14px;
+	font-size:1.5vw;
+	text-align: center;
+	font-family:"BYekan", Tahoma, Verdana, sans-serif;
+	color: 	#C8C8C8 ;
+}
+
+h2 {
+	font-size:14px;
+	font-size:1.5vw;
+	text-align: center;
+	font-family:"BYekan", Tahoma, Verdana, sans-serif;
+	color: 	#C8C8C8 ;
+}
+
+p {
+	font-size:14px;
+	font-size:1.5vw;
+	text-align: center;
+	font-family:BYekan, Tahoma, Verdana, sans-serif;
+	color:	#383838  ;
+}
+
+#wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative; //make #wrapper position non-static
+	min-height: 100%;
+}
+footer {
+	height: 40%; 
+	width:100%;
+	background:#00b359;
+	position:absolute; 
+	bottom: 3; 
+	text-align: center;
+	font: 100 40px/1.5 Georgia, serif;
+    font-size: 1.5vw;
+}
+#footer_down
+{
+	text-align:left;
+	float:left;
+	width:33%;
+	margin-left:2%;
+}
+.left{
+	text-align:left;
+	float:left;
+	width:33%;
+}
+.right{
+	float:right;
+	text-align:right;
+	width:33%;
+}
+.centered{
+	float:center;
+	text-align:center;
+	width:33%;
+}
+
+.boxed_aboutme {
+  width:33%;
+  margin-right:33%;
+  float:center;
+  text-align:center;
+}
+.links 
+{
+	width:33%;
+	margin-right:15%;
+	float:center;
+	text-align:center;
+	font-size:12px;
+	font-size:1.2vw;
+	text-align: center;
+	font-family:BYekan, Tahoma, Verdana, sans-serif;
+
+	
+}
+.social-roll-facebook {
+	background-image: url('Photo/facebook-gray.png');
+	height: 40px;
+	width: 40px;
+	float: left;
+	margin-left:15%;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.social-roll-facebook:hover {
+	background-image: url('Photo/facebook.png');
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+.social-roll-google {
+	background-image: url('Photo/google-gray.png');
+	height: 40px;
+	width: 40px;
+	margin: 5px;
+	margin-left:16%;
+	float: left;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.social-roll-google:hover {
+	background-image: url('Photo/google.png');
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+.social-roll-instagram {
+	background-image: url('Photo/insta-gray.png');
+	height: 40px;
+	width: 40px;
+	margin: 5px;
+	margin-left:17%;
+	float: left;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.social-roll-instagram:hover {
+	background-image: url('Photo/insta.png');
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+div.div_feed
+{
+
+
+}
+
+div.div_sidebar {
+	display: block;
+	box-sizing: border-box;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	padding-top:1%;
+	width: 20%;
+	height: 100%;
+	background-color: white;
+	z-index: -1;
+}
+div.div_sidebar_menu {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	overflow-y: hidden;
+}
+div.div_sidebar_menu:hover {
+	overflow-y: scroll;
+}
+a.a_sidebar {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 8px 10px;
+	text-decoration: none;
+}
+a.a_sidebar:hover {
+	background-color: gray;
+}
+/* #NILOOFAR GHEIBI __________ Footer + Header + Navigation Bar */
