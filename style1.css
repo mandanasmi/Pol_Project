@@ -1,0 +1,184 @@
+/* Style File */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: lightgray;
+	font-family:adobeArabic;
+	direction: rtl;
+}
+
+h4{
+
+	text-align:center;
+
+}
+a.pol_title {
+	font-size: 2em;
+	color: lightblue;
+	text-align: center;
+	margin: 10px;
+	padding: 5px;
+}
+
+div {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+div.div_header {
+	text-align: center;
+	background-color: grey;
+	padding: 10px;
+}
+div.div_navi {
+	background-color: black;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+ul.ul_navi {
+	list-style-type: none;
+	margin: 0;
+	margin-right: 20px;
+	padding: 0;
+	overflow: hidden;
+}
+ul.ul_navi li {
+	float: right;
+}
+li a.navi_link {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a.navi_link:hover {
+	background-color: gray;
+}
+
+.master_head h1{
+	margin-top:50px; 
+	text-align:center;
+}
+#logo_pol {
+
+	margin-top:2px;
+	float:center;
+	width:50px;
+	height: 40px;
+}
+
+ #interview {
+
+	display: block;
+	position:absolute;
+	margin-top:0px;
+	width:100%;
+	height: 500px;
+}
+/* Sidebar */
+
+.div_sidebar {
+	display: none;
+	box-sizing: border-box;
+	position: absolute;
+	float:right;
+	margin: 0;
+	padding: 0;
+	padding-top: 49px;
+	width: 300px;
+	height: 100%;
+	background-color: white;
+	z-index: -1;
+}
+#sidebar_toggle_logo{
+
+	position:absolute;
+	right:30px;
+	width:50px;
+	height:50px;
+}
+#close_icon{
+	position:absolute;
+	right:10px;
+	top: 10px;
+	width:50px;
+	height:50px;
+
+}
+#sidebar_company_logo {
+	display: block;
+	float:center;
+	position:relative;
+	right: 100px;
+}
+
+#sidebar_header {
+	display: block;
+	position: relative;
+	float:center;
+	text-align:center;
+}
+div.div_sidebar_menu {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	overflow-y: hidden;
+}
+div.div_sidebar_menu:hover {
+	overflow-y: scroll;
+}
+a.a_sidebar {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 8px 10px;
+	text-decoration: none;
+}
+a.a_sidebar:hover {
+	background-color: gray;
+}
+
+#Man_Sugesstion{
+
+border: 1px dashed #666666;
+
+}
+
+#Man_Related_Link{
+
+border: 1px dashed #666666;
+
+}
+
+#Man_Sort{
+
+border: 1px dashed #666666;
+
+}
+
+#Man_Statistics{
+
+border: 1px dashed #666666;
+
+}
+a.a_sidebar_sugesstion {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 8px 10px;
+	border-style: ridge;
+	text-decoration: none;
+}
+.Man_radio{
+
+	position:relative;
+	float:center;
+}
