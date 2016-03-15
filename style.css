@@ -1,0 +1,169 @@
+/* Style File */
+
+/* Whole Page */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: lightgray;
+}
+div {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+/* Whole Page */
+/************************************************/
+/* Header */
+div.div_header {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	height: 44px;
+	background-color: lightblue;
+	z-index: 1;
+}
+/* Header */
+/************************************************/
+/* NavigationBar */
+div.div_navi {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	top: 0;
+	right: 0;
+	background-color: black;
+	z-index: 2;
+}
+ul.ul_navi {
+	list-style-type: none;
+	margin: 0;
+	margin-right: 20px;
+	padding: 0;
+	overflow: hidden;
+}
+ul.ul_navi li {
+	float: right;
+}
+li a.navi_link {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a.navi_link:hover {
+	background-color: gray;
+}
+/* NavigationBar */
+/************************************************/
+/* Page */
+div.div_page {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+/* Page */
+/************************************************/
+/* Sidebar */
+div.div_sidebar {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: right;
+	width: 20%;
+	z-index: auto;
+}
+div.div_sidebarinner {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	padding-top: 93px;
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	right: 0;
+	top: 0;
+}
+div.div_sidebarinnerinner {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+/* Sidebar */
+/************************************************/
+/* Feed */
+div.div_feed {
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	margin-right: 20%;
+	overflow: scroll;
+}
+/* Feed */
+/************************************************/
+/* Feed Item */
+div.div_feeditem {
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	padding: 5px 10px 5px 10px;
+	margin: 0;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+}
+ol.list_feed {
+	list-style-type: none;
+}
+a.a_feedpic {
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+a.a_feedpic img {
+	display: block;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	height: 100px;
+}
+/* Feed Item */
+
+
+
+
+
+
+
+
+
+
+
+
