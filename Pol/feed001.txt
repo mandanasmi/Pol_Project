@@ -1,0 +1,8 @@
+<li class="li_feed">
+						<div class="div_feeditem" id="feed0002_inner">
+							<a class="a_feedlink" href=""><img class="img_feedlinkicon" src="images/mandana.jpg"></a>
+							<div class="div_feeditemcontent">
+								<h3>ماندانا سمیعی ۱۲۰ کارمند استخدام می‌کند</h3>
+							</div>
+						</div>
+					</li>

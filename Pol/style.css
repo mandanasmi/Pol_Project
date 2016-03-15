@@ -1,0 +1,253 @@
+/* Style File */
+
+/* Whole Page */
+body {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: silver;
+	direction: rtl;
+}
+div {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+/* Whole Page */
+/************************************************/
+/* Header */
+div.div_header {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 5px 50px 5px 50px;
+	position: relative;
+	height: 64px;
+	background-color: teal;
+	z-index: 1;
+}
+div.div_header #developer_icon {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	width: 54px;
+	height: 54px;
+}
+div.div_header #job_icon {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	width: 54px;
+	height: 54px;
+}
+div.div_header #pol_icon_link {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: right;
+	height: 54px;
+}
+div.div_header #pol_icon {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: right;
+	width: 54px;
+	height: 54px;
+}
+div.div_header #pol_text {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: right;
+	width: 54px;
+	height: 54px;
+}
+/* Header */
+/************************************************/
+/* NavigationBar */
+div.div_navi {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	top: 0;
+	right: 0;
+	background-color: black;
+	z-index: 2;
+}
+div.div_navi ul.ul_navi {
+	display: block;
+	box-sizing: border-box;
+	margin: 0 20px 0 0;
+	padding: 0;
+	position: relative;
+	list-style-type: none;
+	overflow: hidden;
+}
+div.div_navi ul.ul_navi li.li_navi {
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+	float: right;
+}
+div.div_navi ul.ul_navi li.li_navi a.navi_link {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 10px 16px;
+	position: relative;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	line-height: 22px;
+}
+div.div_navi ul.ul_navi li.li_navi a.navi_link:hover {
+	padding: 10px 20px;
+	background-color: gray;
+}
+/* NavigationBar */
+/************************************************/
+/* Page */
+div.div_page {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+/* Page */
+/************************************************/
+/* Sidebar */
+div.div_sidebar {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: right;
+	width: 20%;
+	z-index: auto;
+}
+div.div_sidebar div.div_sidebarinner {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 106px 0 0 0;
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	right: 0;
+	top: 0;
+}
+div.div_sidebar div.div_sidebarinner div.div_sidebarinnerinner {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 1px;
+	width: 100%;
+	height: 100%;
+	color: white;
+	background-color: midnightblue;
+	overflow: auto;
+}
+div.div_sidebar div.div_sidebarinner div.div_sidebarinnerinner:hover {
+	overflow: scroll;
+}
+/* Sidebar */
+/************************************************/
+/* Feed */
+div.div_feed {
+	display: block;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	margin-right: 20%;
+	position: relative;
+	overflow: scroll;
+}
+/* Feed */
+/************************************************/
+/* Feed Item */
+div.div_feed ol.ol_feed {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 10px 20px;
+	position: relative;
+	float: center;
+	list-style-type: none;
+}
+div.div_feed ol.ol_feed li.li_feed {
+	display: block;
+	box-sizing: border-box;
+	margin: 15px 15%;
+	position: relative;
+}
+div.div_feed ol.ol_feed div.div_feeditem {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 5px 10px 50px 5px;
+	position: relative;
+	min-height: 240px;
+	background-color: whitesmoke;
+	border-radius: 2px;
+}
+div.div_feed ol.ol_feed div.div_feeditem a.a_feedlink {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+div.div_feed ol.ol_feed div.div_feeditem a.a_feedlink img.img_feedlinkicon {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+div.div_feed ol.ol_feed div.div_feeditem div.div_feeditemcontent {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-align: right;
+}
+/* Feed Item */
+
+
+
+
+
+
+
+
+
+
+
+

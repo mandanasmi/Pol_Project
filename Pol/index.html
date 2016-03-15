@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>پل | پرتال کاریابی</title>
+        <link rel="stylesheet" href="style.css">
+		<script src="jquery-1.12.1.min.js"></script>
+        <script src="script.js"></script>
+        <meta name="description" content="پل ارتباطی بین کارجویان و کارفرمایان">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta http-equiv="Content-Language" content="fa"/>
+	</head>
+	<body>
+		<div class="div_header">
+			<img id="developer_icon" src="images/developer_icon.png">
+			<img id="job_icon" src="images/job_icon.png">
+			<a id="pol_icon_link" href="http://localhost:8080/Pol/index.html"><img id="pol_icon" src="images/pol_icon.png"><img id="pol_text" src="images/pol_text.png"></a>
+		</div>
+		<div class="div_navi">
+			<ul class="ul_navi">
+				<li class="li_navi"><a class="navi_link" href="">خانه</a></li>
+				<li class="li_navi"><a class="navi_link" href="">کارجویان</a></li>
+				<li class="li_navi"><a class="navi_link" href="">کارفرمایان</a></li>
+				<li class="li_navi"><a class="navi_link" href="">گروههای دانشجویی</a></li>
+				<li class="li_navi"><a class="navi_link" href="">شرکتهای طرف قرارداد</a></li>
+				<li class="li_navi"><a class="navi_link" href="">تماس با ما</a></li>
+			</ul>
+		</div>
+		<div class="div_page">
+			<div class="div_sidebar">
+				<div class="div_sidebarinner">
+					<div class="div_sidebarinnerinner">
+						<h3 id="sidebar_header"> پیشنهادات </h3>
+					<div class="Man_Sugesstion"id="Man_Sugesstion">
+						<span><a class="a_sidebar_sugesstion" href="" >پیشنهادات کار از طرف شرکت ها</a></span><br/>
+						<span><a class="a_sidebar_sugesstion" href="" >پیشنهاد شرکت در کنفرانس</a></span><br/>
+						<span><a class="a_sidebar_sugesstion" href="" >SideBar Link #2</a></span><br/>
+						<span><a class="a_sidebar_sugesstion" href="" >SideBar Link #3</a></span><br/>
+						<span><a class="a_sidebar_sugesstion" href="" >SideBar Link #4</a></span><br/>
+						<span><a class="a_sidebar_sugesstion" href="" >SideBar Link #5</a></span><br/>
+						<span><a class="a_sidebar_sugesstion" href="" >SideBar Link #6</a></span><br/>
+						<span><a class="a_sidebar_sugesstion" href="" >SideBar Link #7</a></span><br/>
+					</div>
+					<h3 id="sidebar_header"> پیشنهادات خود را براساس موارد زیر مرتب کنید </h3>
+					<div class="Man_Sort" id="Man_Sort">
+						<h4> موقعیت </h4>
+						<form class="Man_radio" action="">
+						  <input type="radio" name="gender" value="male"> شمال <br>
+						  <input type="radio" name="gender" value="female"> جنوب <br>
+						  <input type="radio" name="gender" value="female"> شرق <br>
+						  <input type="radio" name="gender" value="other"> غرب
+						</form>
+						
+						<h4> نوع کار </h4>
+						<form class="Man_radio" action="">
+						  <input type="radio" name="gender" value="male"> تمام وقت <br>
+						  <input type="radio" name="gender" value="female"> پاره وقت <br>
+						  <input type="radio" name="gender" value="female"> کارآموزی <br>
+						  <input type="radio" name="gender" value="other"> موقت
+						</form>
+						
+						<h4> درآمد به تومان در ماه</h4>
+						<form class="Man_radio" action="">
+						  <input type="radio" name="gender" value="other"> کمتر از 500 هزار<br>
+						  <input type="radio" name="gender" value="male"> کمتر از 1 میلیون<br>
+						  <input type="radio" name="gender" value="female">بین 1 تا 5 میلیون <br>
+						  <input type="radio" name="gender" value="female"> بالای 10 میلیون 
+						</form>
+						<br>
+					<!--
+						<a class="a_sidebar" href="">SideBar Link #1</a>
+						<a class="a_sidebar" href="">SideBar Link #1</a>
+						<a class="a_sidebar" href="">SideBar Link #1</a>
+						<a class="a_sidebar" href="">SideBar Link #1</a>
+						<a class="a_sidebar" href="">SideBar Link #1</a>
+						<a class="a_sidebar" href="">SideBar Link #1</a>
+						<a class="a_sidebar" href="">SideBar Link #1</a>
+					-->	
+					</div>
+					<h3 id="sidebar_header"> لینک های مرتبط </h3>
+					<div class="Man_Related_Link" id="Man_Related_Link">
+						<a class="a_sidebar" href="http://www.irantalent.com/home/index.php">ایران تلنت</a>
+						<a class="a_sidebar" href="http://www.iranjob.ir/">ایران جاب</a>
+						<a class="a_sidebar" href="http://irankarjoo.com/">ایران کارجو</a>
+						<a class="a_sidebar" href="https://www.linkedin.com/">لینکداین</a>
+					</div>
+					
+					<h3 id="sidebar_header"> آمارهای پر استفاده در بازار کاریابی </h3>
+					<div class="Man_Statistics" id="Man_Statistics">
+						<div class="Man_Statistics_companies" style="border-type:solid;">
+							<h4 style="text-align:center;">آمار شرکت ها بر اساس پذیرش</h4>
+								<div id="myChart1" style="height:100%; width:100%; margin-right:10px; position:relative; float:right; text-align:right;"></div>
+						</div>	
+						<div class="Man_Statistics_Fields" style="border-type:solid;">
+							<h4  style="text-align:center;">آمار نیازمندی های کاری</h4>
+							<div id="myChart2" style="height:100%; width:100%;"></div>
+						</div>	
+						<h4 class="a_sidebar">نمودار میزان پذیرش شرکت ها</h4>
+						<h4 class="a_sidebar">نمودار شغل پردرآمد</h4>
+					</div>
+					<br/>
+					<center>
+						<script language="javascript" type="text/javascript">
+							var day_of_week = new Array('Sun','Mon','Tue','Wed','Thu','Fri','Sat');
+							var month_of_year = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+							//  DECLARE AND INITIALIZE VARIABLES
+							var Calendar = new Date();
+
+							var year = Calendar.getFullYear();     // Returns year
+							var month = Calendar.getMonth();    // Returns month (0-11)
+							var today = Calendar.getDate();    // Returns day (1-31)
+							var weekday = Calendar.getDay();    // Returns day (1-31)
+
+							var DAYS_OF_WEEK = 7;    // "constant" for number of days in a week
+							var DAYS_OF_MONTH = 31;    // "constant" for number of days in a month
+							var cal;    // Used for printing
+
+							Calendar.setDate(1);    // Start the calendar day at '1'
+							Calendar.setMonth(month);    // Start the calendar month at now
+
+
+							/* VARIABLES FOR FORMATTING
+							NOTE: You can format the 'BORDER', 'BGCOLOR', 'CELLPADDING', 'BORDERCOLOR'
+								  tags to customize your caledanr's look. */
+
+							var TR_start = '<TR>';
+							var TR_end = '</TR>';
+							var highlight_start = '<TD WIDTH="30"><TABLE CELLSPACING=0 BORDER=1 BGCOLOR=DEDEFF BORDERCOLOR=CCCCCC><TR><TD WIDTH=20><B><CENTER>';
+							var highlight_end   = '</CENTER></TD></TR></TABLE></B>';
+							var TD_start = '<TD WIDTH="30"><CENTER>';
+							var TD_end = '</CENTER></TD>';
+
+							/* BEGIN CODE FOR CALENDAR
+							NOTE: You can format the 'BORDER', 'BGCOLOR', 'CELLPADDING', 'BORDERCOLOR'
+							tags to customize your calendar's look.*/
+
+							cal =  '<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=0 BORDERCOLOR=BBBBBB><TR><TD>';
+							cal += '<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=2>' + TR_start;
+							cal += '<TD COLSPAN="' + DAYS_OF_WEEK + '" BGCOLOR="#EFEFEF"><CENTER><B>';
+							cal += month_of_year[month]  + '   ' + year + '</B>' + TD_end + TR_end;
+							cal += TR_start;
+
+							//   DO NOT EDIT BELOW THIS POINT  //
+
+							// LOOPS FOR EACH DAY OF WEEK
+							for(index=0; index < DAYS_OF_WEEK; index++)
+							{
+
+							// BOLD TODAY'S DAY OF WEEK
+							if(weekday == index)
+							cal += TD_start + '<B>' + day_of_week[index] + '</B>' + TD_end;
+
+							// PRINTS DAY
+							else
+							cal += TD_start + day_of_week[index] + TD_end;
+							}
+
+							cal += TD_end + TR_end;
+							cal += TR_start;
+
+							// FILL IN BLANK GAPS UNTIL TODAY'S DAY
+							for(index=0; index < Calendar.getDay(); index++)
+							cal += TD_start + '  ' + TD_end;
+
+							// LOOPS FOR EACH DAY IN CALENDAR
+							for(index=0; index < DAYS_OF_MONTH; index++)
+							{
+							if( Calendar.getDate() > index )
+							{
+							  // RETURNS THE NEXT DAY TO PRINT
+							  week_day =Calendar.getDay();
+
+							  // START NEW ROW FOR FIRST DAY OF WEEK
+							  if(week_day == 0)
+							  cal += TR_start;
+
+							  if(week_day != DAYS_OF_WEEK)
+							  {
+
+							  // SET VARIABLE INSIDE LOOP FOR INCREMENTING PURPOSES
+							  var day  = Calendar.getDate();
+
+							  // HIGHLIGHT TODAY'S DATE
+							  if( today==Calendar.getDate() )
+							  cal += highlight_start + day + highlight_end + TD_end;
+
+							  // PRINTS DAY
+							  else
+							  cal += TD_start + day + TD_end;
+							  }
+
+							  // END ROW FOR LAST DAY OF WEEK
+							  if(week_day == DAYS_OF_WEEK)
+							  cal += TR_end;
+							  }
+
+							  // INCREMENTS UNTIL END OF THE MONTH
+							  Calendar.setDate(Calendar.getDate()+1);
+
+							}// end for loop
+
+							cal += '</TD></TR></TABLE></TABLE>';
+
+							//  PRINT CALENDAR
+							document.write(cal);
+
+							//  End -->
+							</script>
+					</center>
+					<br/>
+					</div>
+				</div>
+			</div>
+			<!-- **************************************** Feed by Mir **************************************** -->
+			<div class="div_feed">
+				<ol class="ol_feed">
+					<li class="li_feed">
+						<div class="div_feeditem" id="feed0001_inner">
+							<a class="a_feedlink" href=""><img class="img_feedlinkicon" src="images/mandana.jpg"></a>
+							<div class="div_feeditemcontent">
+								<h3>ماندانا سمیعی ۱۲۰ کارمند استخدام می‌کند</h3>
+								<p>شرکت فن آپ که در حال حاضر خانم سمیعی مدیریت آن را بر عهده دارد تصمیم دارد حدود ۱۲۰ نیروی متخصص استخدام کند.</p>
+								<p>بنا به گفته‌ی معاون ایشون نیروهای مورد نیاز از ۱درصد متخصص جامعه‌ی متخصصین انتخاب خواهند شد. گفته شده این نیروهای برای طراحی پردازنده‌های ملی مشغول خواهند شد.</p>
+								<p>شرکت فن آپ که در حال حاضر خانم سمیعی مدیریت آن را بر عهده دارد تصمیم دارد حدود ۱۲۰ نیروی متخصص استخدام کند.</p>
+								<p>شرکت فن آپ که در حال حاضر خانم سمیعی مدیریت آن را بر عهده دارد تصمیم دارد حدود ۱۲۰ نیروی متخصص استخدام کند.</p>
+								<p>شرکت فن آپ که در حال حاضر خانم سمیعی مدیریت آن را بر عهده دارد تصمیم دارد حدود ۱۲۰ نیروی متخصص استخدام کند.</p>
+								<p>شرکت فن آپ که در حال حاضر خانم سمیعی مدیریت آن را بر عهده دارد تصمیم دارد حدود ۱۲۰ نیروی متخصص استخدام کند.</p>
+								<p>شرکت فن آپ که در حال حاضر خانم سمیعی مدیریت آن را بر عهده دارد تصمیم دارد حدود ۱۲۰ نیروی متخصص استخدام کند.</p>
+							</div>
+						</div>
+					</li>
+					<li class="li_feed">
+						<div class="div_feeditem" id="feed0002_inner">
+							<a class="a_feedlink" href=""><img class="img_feedlinkicon" src="images/mandana.jpg"></a>
+							<div class="div_feeditemcontent">
+								<h3>ماندانا سمیعی ۱۲۰ کارمند استخدام می‌کند</h3>
+							</div>
+						</div>
+					</li>
+				</ol>
+				<p id="wait_icon" style="display: none;font-size: 1.2em;color: white;">در حال بارگیری ...</p>
+			</div>
+		</div>
+	</body>
+</html>
