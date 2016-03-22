@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+		<title>پل | پرتال کاریابی </title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<link rel="shortcut icon" href="images/intro/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+          <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/simple-sidebar.css" rel="stylesheet"> 
+        <!-- Navigation Bar CSS -->
+        <link href="css/Style.css" rel="stylesheet">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">		
+</head>
+	
+<body class="cbp-spmenu-push"style="
+	font-family: 'BYekan',Open Sans, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #666;
+	background-color:#D8D8D8;
+	direction: rtl;">
+<!-- Navigation Bar -->		
+<nav class="navbar navbar-inverse navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+          <li><img id="showRight" src="images/sidebar.png" style="float:center;width:38px;height:38px; cursor:pointer;
+              padding-top:15%;">
+          </li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span>ثبت نام</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>ورود به حساب کاربری</a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+           <li><a href="#">کارجویان</a></li>
+           <li><a href="#">کارفرمایان</a></li>
+           <li><a href="#">استارتاپ ها</a></li>	
+           <li class="active"><a href="#">خانه</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        
+ <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+     <h3>دسترسی های سریع</h3>
+        <a href="index.html#contact">ارتباط با ما</a>
+        <a href="index.html#team">درباره ما</a></li>
+		<a href="startup.html">استارتاپ ها</a>
+		<a href="index.html#Employer">کارفرمایان</a>
+		<a href="index.html#Employee">کارجویان</a>			
+		<a href="index.html#home">خانه</a>
+</nav>
+	
+<!-- Mohtaviate Form -->			
+  <div class="container">
+  <h2>افزودن اطلاعات</h2>
+  
+<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script>
+			var menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+				body = document.body;
+
+				showRight.onclick = function() {
+					classie.toggle( this, 'active' );
+					classie.toggle( menuRight, 'cbp-spmenu-open' );
+					disableOther( 'showRight' );
+				};
+
+
+			function disableOther( button ) 
+			{
+				
+				if( button !== 'showRight' ) {
+					classie.toggle( showRight, 'disabled' );
+				}
+				
+			}
+		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+	</body>
+</html>

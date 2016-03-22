@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@font-face {
+    font-family:'BYekan';/*تعریف یک نام برای فونت*/
+    src:url('font/BYekan.eot');/*اکسپلورر 9 به بعد*/
+    src:local('bYekan'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('b Yekan'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('font/BYekan.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('font/BYekan.woff') format('woff'),/*مرورگر های جدید*/
+        url('font/BYekan.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('font/BYekan.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+.navbar-custom .nav > li > a:focus,
+.navbar-custom .nav > li > a:hover,
+.navbar-custom .nav > li.active > a 
+{
+  background-color: #00b359;
+}
+.navbar-custom .nav 
+{
+	background-color: #707070;
+}
+.navbar-header
+{
+	background-color: #707070;
+}
+.container-fluid
+{
+	background-color: #707070;
+}
+.navbar-inverse
+{
+	font-family:BYekan, Tahoma, Verdana, sans-serif;
+}
+.sidebar #showRight 
+{
+	background: url("../images/sidebar.png") no-repeat scroll 0 0 transparent;
+	width: 100%;
+	cursor: pointer;
+	padding: 10%;
+}
