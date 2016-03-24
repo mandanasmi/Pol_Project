@@ -1,0 +1,426 @@
+body {
+    background-color: silver;
+    font-family: yekan;
+    direction: rtl;
+}
+.polInlineText {
+    color: #00b359;
+}
+/*******************************************************/
+/*** Navigation Bar ***/
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 0;
+    z-index: 9999;
+    background-color: #00b359;
+}
+.pull-right {
+    padding: 9px 18px;
+}
+.pull-right img {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+.navbar li a {
+    color: white !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    background-color: silver !important;
+}
+/*** Navigation Bar ***/
+/*******************************************************/
+
+/*** Footer ***/
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+     font-family: yekan;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 45%;
+    float:right;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+    font-family: yekan;
+    float:right;
+        margin:2%;
+}
+
+.footer-distributed h3 span{
+	color: #00b359;
+    text-decoration:bold;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+    float:right;
+    
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+     font-family: yekan;
+    float:right;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+     font-family: yekan;
+    float:right;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 20%;
+    float:right;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+     font-family: yekan;
+    float:right;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+    float:right;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+    float:right;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 35%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+    
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+
+
+/*** Footer ***/
+
+div.div_feed
+{
+
+
+}
+
+div.div_sidebar {
+	display: block;
+	box-sizing: border-box;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	padding-top:1%;
+	width: 20%;
+	height: 100%;
+	background-color: white;
+	z-index: -1;
+}
+div.div_sidebar_menu {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	overflow-y: hidden;
+}
+div.div_sidebar_menu:hover {
+	overflow-y: scroll;
+}
+a.a_sidebar {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 8px 10px;
+	text-decoration: none;
+}
+a.a_sidebar:hover {
+	background-color: gray;
+}
+/*** Footer ***/
+#polIndexCarousel {
+    padding-top: 50px;
+}
+
+#polIndexCarousel .carousel-indicators {
+    padding: 0;
+}
+#polIndexCarousel .carousel-caption-inner {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 50px 30px 50px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+}
+#polIndexCarousel .carousel {
+    min-height: 600px;
+}
+
+#polIndexCarousel .item img {
+    min-height: 600px;
+    min-width: 960px;
+}
+
+/*******************************************************/
+
+.index-content-container {
+    padding: 50px 60px;
+}
+
+.logo-small {
+    color: #00b359;
+    font-size: 50px;
+}
+
+.logo {
+    color: #00b359;
+    font-size: 200px;
+}
+
+.item-border-left {
+    border-left: solid 1px slategray;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+/*******************************************************/
+
+#commentIndexCarousel {
+    background-color: lightgray;
+}
+
+#commentIndexCarousel .carousel-indicators {
+    padding: 0;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #00b359;
+}
+
+ .carousel-indicators li {
+    border-color: #00b359;
+}
+
+ .carousel-indicators li.active {
+    background-color: #00b359;
+}
+
+#commentIndexCarousel .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+#commentIndexCarousel .item span {
+    font-style: normal;
+}
+
+/*******************************************************/
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #00b359;
+}
+
+@font-face {
+	font-family: yekan;
+	src: url('../fonts/yekan.otf');
+}
+
+/*******************************************************/
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}

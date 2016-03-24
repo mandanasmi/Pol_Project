@@ -1,0 +1,524 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@font-face {
+    font-family:'BYekan';/*تعریف یک نام برای فونت*/
+    src:url('font/BYekan.eot');/*اکسپلورر 9 به بعد*/
+    src:local('bYekan'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('b Yekan'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('font/BYekan.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('font/BYekan.woff') format('woff'),/*مرورگر های جدید*/
+        url('font/BYekan.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('font/BYekan.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+.navbar-custom .nav > li > a:focus,
+.navbar-custom .nav > li > a:hover,
+.navbar-custom .nav > li.active > a 
+{
+  background-color: #00b359;
+}
+.navbar-custom .nav 
+{
+	background-color: #707070;
+}
+.navbar-header
+{
+	background-color: #707070;
+}
+.container-fluid
+{
+	background-color: #707070;
+}
+.navbar-inverse
+{
+	font-family:BYekan, Tahoma, Verdana, sans-serif;
+}
+.sidebar #showRight 
+{
+	background: url("../images/sidebar.png") no-repeat scroll 0 0 transparent;
+	width: 100%;
+	cursor: pointer;
+	padding: 10%;
+}
+/******************************************************/
+div.index_header_div {
+    padding: 5px 50px 5px 50px;
+    min-height: 64px;
+    background-color: lightgray;
+}
+div.index_header_div img {
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+}
+div.index_header_div img#developer_icon {
+    float: left;
+}
+div.index_header_div img#job_icon {
+    float: left;
+}
+div.index_header_div img#pol_icon {
+    float: right;
+}
+div.index_header_div img#pol_text {
+    float: right;
+}
+/******************************************************/
+body {
+  font-family: 'BYekan',Open Sans, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+  background-color:#D8D8D8;
+  direction: rtl;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /*color: #333;*/
+  color :#00b359;
+  font-family: 'BYekan',Open Sans, sans-serif;
+}
+h2 {
+  font-size: 30px;
+  font-family: 'BYekan',Open Sans, sans-serif;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: 'BYekan',Open Sans, sans-serif;
+}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+	font-family: 'BYekan',Open Sans, sans-serif;
+}
+
+a:hover {
+	color: #000;
+	font-family: 'BYekan',Open Sans, sans-serif;
+}
+
+.main,
+.container > header h1 {
+	font-size: 2.125em;
+	line-height: 1.3;
+	margin: 0;
+	float: left;
+	font-weight: 400;
+	 font-family: 'BYekan',Open Sans, sans-serif;
+}
+
+.container > header span {
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	padding: 0 0 0.6em 0.1em;
+	 font-family: 'BYekan',Open Sans, sans-serif;
+}
+
+.container > header nav {
+	float: right;
+	
+}
+
+.container > header nav a {
+	display: block;
+	float: left;
+	position: relative;
+	width: 2.5em;
+	height: 2.5em;
+	background: #fff;
+	border-radius: 50%;
+	color: transparent;
+	margin: 0 0.1em;
+	border: 4px solid #47a3da;
+	text-indent: -8000px;
+	 font-family: 'BYekan',Open Sans, sans-serif;
+}
+
+.container > header nav a:after {
+	content: attr(data-info);
+	color: #47a3da;
+	position: absolute;
+	width: 600%;
+	top: 120%;
+	text-align: right;
+	right: 0;
+	opacity: 0;
+	pointer-events: none;
+	
+}
+
+.container > header nav a:hover:after {
+	opacity: 1;
+}
+
+.container > header nav a:hover {
+	background: #47a3da;
+}
+
+.main > section {
+	max-width: 260px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.main > section h2 {
+	font-weight: 300;
+	color: #ccc;
+}
+
+.icon-drop:before, 
+.icon-arrow-left:before {
+	font-family: 'fontawesome';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 2;
+	text-align: center;
+	color: #47a3da;
+	-webkit-font-smoothing: antialiased;
+	text-indent: 8000px;
+	padding-left: 8px;
+}
+
+.container > header nav a:hover:before {
+	color: #fff;
+}
+
+.icon-drop:before {
+	content: "\e000";
+}
+
+.icon-arrow-left:before {
+	content: "\f060";
+}
+/* General styles for all menus */
+.cbp-spmenu {
+	background: #00b359;
+	position: fixed;
+}
+
+.cbp-spmenu h3 {
+	color: #E8E8E8 ;
+	font-size: 1.9em;
+	padding: 20px;
+	margin: 0;
+	font-weight: 300;
+	background: #66cc66;
+}
+
+.cbp-spmenu a {
+	display: block;
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+.cbp-spmenu a:hover {
+	background:#C8C8C8 ;
+}
+
+.cbp-spmenu a:active {
+	background:#00b359;
+	color: #66cc66;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	width: 240px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.cbp-spmenu-vertical a {
+	border-bottom: 1px solid #66cc66;
+	padding: 1em;
+}
+
+.cbp-spmenu-horizontal {
+	width: 100%;
+	height: 150px;
+	left: 0;
+	z-index: 1000;
+	overflow: hidden;
+}
+
+.cbp-spmenu-horizontal h3 {
+	height: 100%;
+	width: 20%;
+	float: left;
+}
+
+.cbp-spmenu-horizontal a {
+	float: left;
+	width: 20%;
+	padding: 0.8em;
+	border-left: 1px solid #66cc66;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+	left: -240px;
+}
+
+.cbp-spmenu-right {
+	right: -240px;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+	left: 0px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+	right: 0px;
+}
+
+/* Horizontal menu that slides from the top or bottom */
+
+.cbp-spmenu-top {
+	top: -150px;
+}
+
+.cbp-spmenu-bottom {
+	bottom: -150px;
+}
+
+.cbp-spmenu-top.cbp-spmenu-open {
+	top: 0px;
+}
+
+.cbp-spmenu-bottom.cbp-spmenu-open {
+	bottom: 0px;
+}
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.cbp-spmenu-push-toright {
+	left: 240px;
+}
+
+.cbp-spmenu-push-toleft {
+	left: -240px;
+}
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+/* Example media queries */
+
+@media screen and (max-width: 55.1875em){
+
+	.cbp-spmenu-horizontal {
+		font-size: 75%;
+		height: 110px;
+	}
+
+	.cbp-spmenu-top {
+		top: -110px;
+	}
+
+	.cbp-spmenu-bottom {
+		bottom: -110px;
+	}
+
+}
+
+@media screen and (max-height: 26.375em){
+
+	.cbp-spmenu-vertical {
+		font-size: 90%;
+		width: 190px;
+	}
+
+	.cbp-spmenu-left,
+	.cbp-spmenu-push-toleft {
+		left: -190px;
+	}
+
+	.cbp-spmenu-right {
+		right: -190px;
+	}
+
+	.cbp-spmenu-push-toright {
+		left: 190px;
+	}
+}
+/* info */
+/* Icon Wobble Vertical */
+@-webkit-keyframes hvr-icon-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes hvr-icon-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+#icon:hover
+{
+	 -webkit-animation-name: hvr-icon-wobble-vertical;
+  animation-name: hvr-icon-wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+
+}
+
+/* save button */
+.Niloo_button
+{
+	background:#00b359;
+	width:100%;
+	margin-left:5%;
+	margin-right:5%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  padding-right: 2.2em;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+
+
+}
+/* Icon Buzz */
+@-webkit-keyframes hvr-icon-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+@keyframes hvr-icon-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+.Niloo_button:hover{
+  -webkit-animation-name: hvr-icon-buzz;
+  animation-name: hvr-icon-buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
