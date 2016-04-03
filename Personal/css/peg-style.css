@@ -523,3 +523,14 @@ footer .glyphicon {
     
     list-style-type: none;
 }
+
+#social 
+{
+    margin:0px;
+    padding:0px;
+    white-space:nowrap;
+    width:auto;
+    overflow:visible;
+    border:0;
+    background:transparent.
+}

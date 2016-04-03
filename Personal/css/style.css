@@ -362,3 +362,9 @@ Notification btn and number
 .footer-about p{
 	margin-top:2px;
 }
+
+.startup-progress
+{
+    background-image: url(../img/startup/Yellow.png);
+    margin:5%;
+}
