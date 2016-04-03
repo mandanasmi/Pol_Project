@@ -1,0 +1,364 @@
+
+@font-face {
+	font-family: yekan;
+	src: url('../font/yekan.otf');
+	font-style: normal
+}
+
+body {
+    background-color: silver;
+    font-family: yekan;
+    direction: rtl;
+	overflow-x:hidden;
+}
+/*** Navigation Bar ***/
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 0;
+    z-index: 9999;
+    background-color: #00b359;
+}
+.pull-right {
+    padding: 9px 18px;
+}
+.pull-right img {
+    display: inline-block;
+    width:  32px;
+    height: 32px;
+}
+.navbar li a {
+    color: white !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    background-color: silver !important;
+}
+.navbar button{
+	margin-left:10px;
+	margin-right:20px;
+	margin-top:13px;
+	width:100px;
+	padding:1px;
+    position:relative;
+    line-height:30px;
+	background-color: #00b359;
+}
+/**************************
+Notification btn and number
+**************************/
+.notification {
+    position:absolute;
+    right:25px;
+    top:3px;
+    background-color:red;
+    line-height:20px;
+    width:20px;
+    height:20px;
+    border-radius:10px;
+}
+.peg_notif_box {
+		color:#ffffff;
+		height:60px;
+		width:120px;
+		border-radius:5px;
+		font-family:yekan;
+		font-size:1em;
+		padding:2px;
+		margin-top:10px;
+		margin-left:10px;
+		position: relative;
+		float:left;
+		background:#004d33 ;
+		text-align:center;
+		animation-timing-function: ease;
+		animation-name: peg_Change_NotifBox;
+		animation-duration: 1s;
+		
+}
+.peg_mouse_enter_notif{
+		width: 15em;
+}
+.peg_close_button{
+
+	/*background-image: url('closeicon.png') no-repeat scroll 0 0 transparent;*/
+	height:20px;
+	width: 20px;
+	float:right;
+    margin-top:2px;
+    margin-right:1px;
+    cursor:pointer;
+	border-radius: 0.5em;	
+    line-height: 0em;
+}
+.peg_close_button:before {
+
+	content: "X";
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:20px;
+	color: #0d0d0d;
+}
+@keyframes peg_Change_NotifBox{
+	0%  { left: -10em;}
+	50% { left: 10em;}
+	100% { left: 0em;}
+}
+/******************************HEADER******************************/
+.header{
+
+	background-color: #505050;
+	color:white;
+	font-size:15px;
+	margin-top: 50px;
+	text-align:center;
+	height:400px;
+	width:100%;
+	position:relative;
+	display: inline;
+	float: left;
+	padding-top:100px;
+}
+.header-title{
+	
+	font-weight:200;
+	font-size:50px;
+}
+.header p{
+
+	font-size: 18px;
+	font-weight: 200;
+}
+.form-btn{
+
+	color:white;
+	height:50px;
+	font-size:18px;
+	border-radius:5px;
+	padding-top:10px;
+	position:relative;
+	float:center;
+	text-align:center;
+	background-color: #00b359;
+}
+.join-btn{
+    color:white;
+    position:relative;
+	float:center;
+	text-align:center;
+	background-color: orangered;
+    border-radius:5px;
+    height:30px;
+    font-size:16px;
+}
+/***************************************** About company*****************************/
+.company-logo{
+	/*border: 5px solid #fff;*/
+	height: 130px;
+	margin-left: 200px;
+	margin-top: 20px;
+	width: 140px;
+	
+}
+.company-logo img{
+	height: 130px;
+	margin-left: 200px;
+	float:center;
+	width: 140px;
+}
+.company-info{
+
+	float:right;
+}
+.company-news{
+
+	margin-right:10px;
+	float:right;
+}
+#about li{
+	border-bottom: 1px solid #eeeeee;
+	color: #727272;
+	font-size: 15px;
+	margin-bottom: 12px;
+	padding-bottom: 12px;
+
+}
+.resume-btn{
+	margin-top: 30px;
+	font-size:18px;
+	margin-left:350px;
+}
+/*****************Skills*******************/
+#work-skill{
+	margin-top:80px;
+}
+#work-skill h2{
+	margin-right: 30px;
+}
+#work-skill .container{
+	
+	width:100%;
+	background-color:#F0F0F0 ;
+}
+#work-skill .skill{
+
+		background-color:#505050;
+		color:white;
+}
+/*************Team Member*******************/
+#team-member{
+	margin-top:80px;
+}
+#team-member .container{
+	width:100%;
+	background-color:#fff;
+}
+#team-member h2{
+	margin-right: 30px;
+}
+.panel-heading {
+
+	text-align:center;
+}
+.panel-body img{
+	position:relative;
+	float:center;
+}
+.panel-body p{
+
+	font-size:15px;
+	text-align:center;
+}
+/************************Services*********************/
+#services{
+	margin-top: 80px;
+}
+#services h2{
+	margin-right: 30px;
+}
+#services .container{
+	width:100%;
+	background-color:#505050  ;
+}
+#myCarousel{
+	width:50%;
+	position:relative;
+	margin-right:400px;
+	background-color:white; 
+	opacity:1;
+}
+ .carousel-indicators li {
+    border-color: white;
+}
+ .carousel-indicators li.active {
+    background-color: #00b359;
+}
+.carousel-caption{
+	color:#00b359;
+	margin-bottom:1px;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius:8px;
+}
+.carousel-caption p{
+	font-size:18px;
+	color:white;
+}
+.item  img{
+	margin-right:100px;
+}
+ .carousel-caption-inner {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 50px 30px 50px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+	float:center;
+}
+.carousel-indicators{
+	margin-bottom:-2px;
+	margin-left:-300px;
+	position:absolute;
+	float:center;
+}
+.glyphicon-chevron-left{
+	color:#00b359;
+}
+.glyphicon-chevron-right{
+	color:#00b359;
+}
+/********************contact****************************/
+#contact{
+		margin-top: 80px;
+}
+#contact h2{
+	margin-right: 30px;
+}
+#contact .container{
+	width:100%;
+	height:600px;
+	background-color:#F0F0F0 ;
+}
+/********************************Map***************************/
+.contact-map{
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  height: 300px;
+  display: inline;
+  float: left;
+  width: 100%;
+ }
+/*** Footer ***/
+.footer-distributed{
+	margin-top: 100px;
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: bold 16px;
+	padding: 55px 50px;
+    font-family: yekan;
+}
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+    font-family: yekan;
+    float:right;
+}
+.footer-distributed h3 span{
+	color: white;
+    text-decoration:bold;
+}
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+    
+}
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+}
+.footer-distributed .fa{
+	margin-top:5px;
+}
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.footer-about p{
+	margin-top:2px;
+}
